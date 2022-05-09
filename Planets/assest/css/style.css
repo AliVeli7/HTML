@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+    width: 600px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 100px;
+    background-color: blue;
+}
+
+.sun{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: relative;
+    border-radius: 60%;
+    left: 175px;
+    top: 162.5px;
+    right: 175px;
+    bottom: 175px;
+    text-align: center;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: sun;
+    
+}
+
+@keyframes sun{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+      }
+
+}
+
+.sun:hover{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+
+
+.merkuri{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(69, 84, 122);
+    position: relative;
+    border-radius: 60%;
+    left: 150px;
+    top: 140px;
+    text-align: center;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    transform-origin: 50px; 
+    animation-name: merkuri;
+}
+
+@keyframes merkuri{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+      }
+
+}
+
+.merkuri:hover{
+    transform: rotate(360deg);
+    transition-duration: 15s;
+}
+
+.venus{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(32, 72, 173);
+    position: relative;
+    border-radius: 60%;
+    left: 125px;
+    top: 125px;
+    animation-duration: 6s ;
+    animation-iteration-count: infinite;
+    transform-origin: 75px; 
+    animation-name: venus;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes venus{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+      }
+
+}
+
+.venus:hover{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+
+.earth{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(13, 13, 13);
+    position: relative;
+    border-radius: 60%;
+    left: 100px;
+    top: 100px;
+    text-align: center;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    transform-origin: 90px; 
+    animation-name: earth;
+}
+
+@keyframes earth{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+      }
+
+}
+
+.earth:hover{
+    transform: rotate(360deg);
+    transition-duration: 5s;
+}
+
+.mars{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(155, 19, 19);
+    position: relative;
+    border-radius: 60%;
+    left: 90px;
+    top: 100px;
+    text-align: center;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    transform-origin: 115px; 
+    animation-name: earth;
+}
+
+@keyframes mars{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+      }
+
+}
+
+.mars:hover{
+    transform: rotate(360deg);
+    transition-duration: 5s;
+}
+
+.jupiter{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(86, 82, 82);
+    position: relative;
+    border-radius: 60%;
+    left: 80px;
+    top: 100px;
+    text-align: center;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    transform-origin: 125px; 
+    animation-name: jupiter;
+    transition-timing-function: linear;
+}
+
+@keyframes jupiter{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+      }
+
+}
+
+.jupiter:hover{
+    transform: rotate(360deg);
+    transition-duration: 5s;
+}
+
+.saturn{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(180, 166, 166);
+    position: relative;
+    border-radius: 60%;
+    left: 70px;
+    top: 90px;
+    text-align: center;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transform-origin: 135px; 
+    animation-name: saturn;
+    transition-timing-function: linear;
+}
+
+@keyframes saturn{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+      }
+
+}
+
+.saturn:hover{
+    transform: rotate(360deg);
+    transition-duration: 5s;
+}
+
+.uranus{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(86, 99, 22);
+    position: relative;
+    border-radius: 60%;
+    left: 75px;
+    top: 75px;
+    text-align: center;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    transform-origin: 145px; 
+    animation-name: uranus;
+    transition-timing-function: linear;
+}
+
+@keyframes uranus{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+      }
+
+}
+
+.uranus:hover{
+    transform: rotate(360deg);
+    transition-duration: 5s;
+}
+
+
+
+.neptune{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(69, 40, 232);
+    position: relative;
+    border-radius: 60%;
+    left: 50px;
+    top: 50px;
+    text-align: center;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    transform-origin: 175px; 
+    animation-name: neptune;
+    transition-timing-function: linear;
+}
+
+@keyframes neptune{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+      }
+
+}
+
+.neptune:hover{
+    transform: rotate(360deg);
+    transition-duration: 5s;
+}
+
+
+
+
